@@ -13,6 +13,7 @@
     --secondary-color: #6c757d;
     --dark-color: #212529;
     --light-color: #f8f9fa;
+
    
    
    
@@ -118,7 +119,7 @@ h1, h2, h3, h4, h5, h6 {
 .nav-link {
     font-weight: 500;
     padding: 0.5rem 1rem !important;
-    color: var(--text-color);
+    color: #fff;
 }
 
 .nav-link:hover, .nav-link.active {
