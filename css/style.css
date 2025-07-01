@@ -1,6 +1,14 @@
-/* General Styles */
-:root {
-    --primary-color: #fd610d;
+
+
+:root  {
+    --body-color: #212529;
+    --text-color: #f8f9fa;
+    --text-muted: #adb5bd;
+    --border-color: #495057;
+    --card-bg: #2c3034;
+    --footer-bg: #1a1d20;
+    --hero-bg: linear-gradient(135deg, #212529 0%, #343a40 100%);
+     --primary-color: #fd610d;
     --primary-hover: #db6a2c;
     --secondary-color: #6c757d;
     --dark-color: #212529;
@@ -11,16 +19,6 @@
     --card-bg: #ffffff;
     --footer-bg: #f8f9fa;
     --hero-bg: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
-}
-
-[data-bs-theme="dark"] {
-    --body-color: #212529;
-    --text-color: #f8f9fa;
-    --text-muted: #adb5bd;
-    --border-color: #495057;
-    --card-bg: #2c3034;
-    --footer-bg: #1a1d20;
-    --hero-bg: linear-gradient(135deg, #212529 0%, #343a40 100%);
 }
 
 body {
